@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <table border=4 bordercolor="Red">
+    <caption><h3>Container Tables</h3></caption>
+    <tr>
+      <td>
+        <table border=3 bordercolor="Orange">
+          <tr>
+            <th colspan=2>Nested Table 2</th>
+          </tr>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+          <tr>
+            <td>
+              Our First Tables
+            </td>
+            <td>
+              Nested Within
+            </td>
+          </tr>  
+          </tr>
+        </table>
+      </td>
+      <th>
+        <table border=2 bordercolor="Blue">
+        <tr>
+          <td>Nested Table</td>
+        </tr>
+        <tr>
+        <td>
+        <ul>
+          <li>List Object 1</li>
+          <li>List Object 2</li>
+          <li>List Object 3</li>
+        </ul>
+        </td>
+        </tr>
+        </table>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <table border=3>
+          <tr>
+            <th colspan=2>Nested Table-3</th>
+          </tr>
+          <tr>
+            <th>Nested Table</th>
+            <th>Demo Continued</th>
+          </tr>
+        </table>
+      </th>
+      <th>
+        <table border=3 bordercolor="Green">
+          <tr>
+            <th>Nested Table-4</th>
+          </tr>
+          <tr>
+            <th>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZYOVDGyL57icWm-xJImvWb2FCrw7c5HmRgg&usqp=CAU" width="150"> 
+            </th>
+          </tr>
+        </table>
+      </th>
+    </tr>
+  </table>
+</body>
+</html>
